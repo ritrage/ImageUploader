@@ -1,0 +1,36 @@
+body {
+  background: rgb(10, 59, 105);
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border: solid 2px black;
+}
+
+.outlayer {
+  padding: 5%;
+  margin-top: 10%;
+  border-radius: 5px;
+  width: 50% !important;
+}
+
+.separator {
+  margin: 20px;
+  visibility: hidden;
+}
+
+.imageinput::-webkit-file-upload-button {
+  background-color: rgb(10, 59, 105);
+  color: white;
+  border-radius: 5px;
+  border: solid black 0.5px;
+  padding: 12px;
+}
+
+.imageinput {
+  border: solid skyblue 1.5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
